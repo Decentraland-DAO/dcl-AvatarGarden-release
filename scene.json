@@ -1,0 +1,57 @@
+{
+"ecs7": true,
+"runtimeVersion": "7",
+"display": {
+    "title": "100Avatars Garden",
+	"description": "Where the wild 100 Avatars are. Join, play and unlock one every day you play.",
+	"navmapThumbnail": "images/scene-thumbnail.jpg",
+    "favicon": "favicon_asset"
+},
+"contact": {
+    "name": "Polygonal Mind",
+    "email": "info@polygonalmind.com"
+},
+"owner": "ETH Address",
+"scene": {
+"parcels": [
+          "-55,-121",
+      "-55,-118",
+      "-54,-118",
+      "-53,-118",
+      "-52,-118",
+      "-55,-119",
+      "-54,-119",
+      "-53,-119",
+      "-52,-119",
+      "-55,-120",
+      "-54,-120",
+      "-53,-120",
+      "-52,-120",
+      "-54,-121",
+      "-53,-121",
+      "-52,-121"
+    ],
+    "base": "-55,-121"
+},
+"spawnPoints": [
+    {
+	"name": "spawnPoint0DCL",
+	"default": true,
+	"position": {
+		"x": 6,
+		"y": 1,
+		"z": 60
+	},
+	"cameraTarget": {
+		"x": 16,
+		"y": 1,
+		"z": 60
+	}
+	}
+],
+"featureToggles": {
+    "voiceChat": "enabled"
+},
+"main": "bin/index.js",
+"tags": []
+}
