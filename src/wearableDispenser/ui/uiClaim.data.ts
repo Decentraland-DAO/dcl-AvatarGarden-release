@@ -22,6 +22,9 @@ export const uiClaimData: UIClaimData = {
         else if(uiClaimData.mode == UIClaimMode.CLAIMING) {
             return 'Claiming your wearable...'
         }
+        else if(uiClaimData.mode == UIClaimMode.OUT_OF_STOCK) {
+            return 'We are sorry,\n this wearable is out of stock.'
+        }
     }
 }
 

@@ -10,6 +10,7 @@ export enum ClaimState {
 }
 
 export enum ClaimCodes {
+    BENEFICIARY_OK = 'beneficiary_ok',
     BENEFICIARY_INVALID = 'beneficiary_invalid',
     BENEFICIARY_NOT_CONNECTED = 'beneficiary_not_connected',
     BENEFICIARY_POSITION = 'beneficiary_position',
@@ -50,6 +51,7 @@ export enum UIClaimMode {
     NOTRECEIVED = 4,
     HASALREADY = 5,
     CLAIMING = 6,
+    OUT_OF_STOCK = 7,
 }
 
 export type ClaimTokenRequestArgs={

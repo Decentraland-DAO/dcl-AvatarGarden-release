@@ -65,6 +65,13 @@ export class ClaimManager {
     try {
       console.log('URN ', ClaimConfig.campaign[campaignName].wearableUrnsToCheck)
       const claimResult = await claimReq.claimToken()
+      handleClaimJson(claimResult)
+      if (ClaimCodes.OUT_OF_STOCK === handleClaimJson(claimResult)) {
+        uiClaimData.mode = UIClaimMode.OUT_OF_STOCK
+        setIsMenuVisible(true)
+        console.log('claimResult, OUT OF STOCK ', claimResult)
+        return
+      }
       setIsMenuVisible(true)
       setImgSrc('https://peer.decentraland.org/lambdas/collections/contents/' + ClaimConfig.campaign[campaignName].wearableUrnsToCheck + '/thumbnail')
       console.log('claimResult, received wearable? ', claimResult)
@@ -72,4 +79,56 @@ export class ClaimManager {
       console.log('error fetching from Reward server ', ClaimConfig.rewardsServer)
     }
   }
+}
+
+export function handleClaimJson(claimResult:ClaimTokenResult):ClaimCodes{
+  const json=claimResult.json
+  const overrideCode=claimResult.claimCode
+  const error=claimResult.exception
+  console.log("handleClaimJson ",json,overrideCode)
+
+  if (json && !json.ok) {
+    console.log('ERROR: ', json.code)
+    let code = json.code
+    if(overrideCode){
+      code = overrideCode
+    }
+    let uiMsg = ''
+    
+    let tryAgainInMsg = ""
+    switch (code) {
+      case ClaimCodes.BENEFICIARY_INVALID:
+      case ClaimCodes.BENEFICIARY_NOT_CONNECTED:
+      case ClaimCodes.BENEFICIARY_POSITION:
+        break
+      case 'campaign_uninitiated':
+      case 'campaign_key_uninitiated':
+        uiMsg = 'This campaign has not started yet.'
+        tryAgainInMsg = "This campaign has not started.\nTry back in "
+        break
+      case 'campaign_finished':
+      case 'campaign_key_finished':  
+        uiMsg = 'This campaign is over.'
+        tryAgainInMsg = "Temporarily of stock.\nNext batch will be available in \n"
+        break
+      default:
+        uiMsg = 'An unexpected error occurred: \n' + json.error
+        break
+    }
+  }else if (_isOutOfStock(json)) {
+    return ClaimCodes.OUT_OF_STOCK
+  } else {
+    switch (json.data[0].status) {
+      case ClaimState.ASSIGNED:
+      case ClaimState.SENDING:
+      case ClaimState.SUCCESS:
+      case ClaimState.CONFIRMED:
+        return ClaimCodes.BENEFICIARY_OK
+      case ClaimState.REJECTED:
+        return ClaimCodes.BENEFICIARY_INVALID
+      default:
+        break
+    }
+  }
+  return ClaimCodes.BENEFICIARY_OK
 }
