@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc38003c0e0db6641a4762d4f392de52, type: 3}
+  m_Name: PrefabPalette-Default
+  m_EditorClassIdentifier: 
+  prefabs:
+  - gameObject: {fileID: 919132149155446097, guid: 79cc30152ab86594a888a3bf5acce081, type: 3}
+    settings:
+      m_Strength: 52.25
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.6, y: 0.4, z: 0.6}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Grass_Chunk_01_Art
+  - gameObject: {fileID: 919132149155446097, guid: 29ef246ca47299e488a27b7cddde2757, type: 3}
+    settings:
+      m_Strength: 52.25
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.6, y: 0.4, z: 0.6}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Grass_Chunk_02_Art
+  - gameObject: {fileID: 919132149155446097, guid: c5d78c5316fdd714682c97d85196c2b6, type: 3}
+    settings:
+      m_Strength: 52.25
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.6, y: 0.4, z: 0.6}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Grass_Chunk_03_Art
+  - gameObject: {fileID: 919132149155446097, guid: edc9cf95fea54914789c28b1871f987e, type: 3}
+    settings:
+      m_Strength: 48.25
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.6, y: 0.4, z: 0.6}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Grass_Chunk_04_Art
+  - gameObject: {fileID: 919132149155446097, guid: a2e5ac969b5da0442aaaf70c30ba0eba, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_01_Art
+  - gameObject: {fileID: 919132149155446097, guid: f5f943ad06b1c4945a3c6633688ed9fe, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_02_Art
+  - gameObject: {fileID: 919132149155446097, guid: 85bd94265281e724c8652672081ef140, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_03_Art
+  - gameObject: {fileID: 919132149155446097, guid: c75f26fffa71fda48865dfd1901fddc6, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_04_Art
+  - gameObject: {fileID: 919132149155446097, guid: 581d3bcc4bceb0846a4ce751814ae581, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_05_Art
+  - gameObject: {fileID: 919132149155446097, guid: 0e5bc0bcac1d7b84582ffec418d96ede, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_06_Art
+  - gameObject: {fileID: 919132149155446097, guid: f7f0ee57a7b4005469b4c767e12d237b, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_07_Art
+  - gameObject: {fileID: 919132149155446097, guid: 4364e597842850a4e90bc73b25065a59, type: 3}
+    settings:
+      m_Strength: 15
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 0.4, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 0.8, z: 1}
+      m_UniformScale: {x: 0.6341462, y: 3.282927}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Veg_Flower_08_Art
+  - gameObject: {fileID: 919132149155446097, guid: 6d26a8eeeda6df04f8036f3dbc818639, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.3}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Terrain_Stone_01_Art
+  - gameObject: {fileID: 919132149155446097, guid: 69e9f082a3fdefc4ab6bf63668199564, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.3}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Terrain_Stone_02_Art
+  - gameObject: {fileID: 919132149155446097, guid: 152f8fb9b628e2044b85da72cdcee6a8, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.3}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 1
+      m_ZScaleBool: 0
+    name: Terrain_Stone_04_Art

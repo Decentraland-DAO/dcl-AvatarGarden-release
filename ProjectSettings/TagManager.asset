@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - hole_11
+  - hole_9
+  - hole_7
+  - hole_4
+  - panel_objective
+  - panel_timer
+  - hole_3
+  - hole_2
+  - hole_6
+  - hole_10
+  - panel_score
+  - hole_12
+  - hole_5
+  - hole_1
+  - hole_8
+  - panel_objective_disable
+  - npc_1
+  - npc_2
+  - npc_3
+  - mole_disable
+  - minigames_floor
+  - leaderboard_01
+  - leaderboard_board
+  - leaderboard_prev
+  - leaderboard_next
+  - leaderboard_2
+  - leaderboard_3
+  - leaderboard_1
+  - leaderboard_pages
+  - showcase
+  - avatar_claim
+  - avatar_preview
+  - avatar_lock
+  - avatar_frame
+  - thoughts_01
+  - thoughts_02
+  - thoughts_03
+  - thoughts_04
+  - thoughts_05
+  - npc_4
+  - npc_5
+  - panel_text
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

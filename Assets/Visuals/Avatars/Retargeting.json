@@ -1,0 +1,478 @@
+{
+    "rokoko_custom_names": true,
+    "version": 1,
+    "bones": {
+        "rightUpLeg": [
+            "avatar_rightupleg",
+            "rigtupperleg"
+        ],
+        "rightLeg": [
+            "avatar_rightleg",
+            "rigtlowerleg"
+        ],
+        "rightFoot": [
+            "avatar_rightfoot",
+            "rigtfoot"
+        ],
+        "rightToe": [
+            "avatar_righttoebase",
+            "rigttoes"
+        ],
+        "custom_bone_righttoe_end": [
+            "righttoe_end",
+            "righttoe_end"
+        ],
+        "leftUpLeg": [
+            "avatar_leftupleg",
+            "leftupperleg"
+        ],
+        "leftLeg": [
+            "avatar_leftleg",
+            "leftlowerleg"
+        ],
+        "leftToe": [
+            "avatar_lefttoebase",
+            "lefttoes"
+        ],
+        "custom_bone_lefttoe_end": [
+            "lefttoe_end",
+            "lefttoe_end"
+        ],
+        "custom_bone_spine1": [
+            "avatar_spine1",
+            "spine1",
+            "chest"
+        ],
+        "custom_bone_spine2": [
+            "avatar_spine2",
+            "spine2",
+            "upperchest"
+        ],
+        "custom_bone_head_end": [
+            "head_end",
+            "head_end"
+        ],
+        "rightUpperArm": [
+            "avatar_rightarm",
+            "rightupperarm"
+        ],
+        "rightLowerArm": [
+            "avatar_rightforearm",
+            "rightlowearm"
+        ],
+        "rightThumbProximal": [
+            "avatar_righthandthumb1",
+            "rightthumbmetacarpal"
+        ],
+        "rightThumbMedial": [
+            "avatar_righthandthumb2",
+            "rightthumbproximal"
+        ],
+        "rightThumbDistal": [
+            "avatar_righthandthumb3",
+            "rightthumbdistal"
+        ],
+        "rightIndexProximal": [
+            "avatar_righthandindex1",
+            "rightindexproximal"
+        ],
+        "rightIndexMedial": [
+            "avatar_righthandindex2",
+            "rightindexintermediate"
+        ],
+        "rightIndexDistal": [
+            "avatar_righthandindex3",
+            "rightindexdistal"
+        ],
+        "rightMiddleProximal": [
+            "avatar_righthandmiddle1",
+            "rightmiddleproximal"
+        ],
+        "rightMiddleMedial": [
+            "avatar_righthandmiddle2",
+            "rightmiddleintermediate"
+        ],
+        "rightMiddleDistal": [
+            "avatar_righthandmiddle3",
+            "rightmiddledistal"
+        ],
+        "rightRingProximal": [
+            "avatar_righthandring1",
+            "rightringproximal"
+        ],
+        "rightRingMedial": [
+            "avatar_righthandring2",
+            "rightringintermediate"
+        ],
+        "rightRingDistal": [
+            "avatar_righthandring3",
+            "rightmiddledistal.001"
+        ],
+        "rightLittleProximal": [
+            "avatar_righthandpinky1",
+            "rightlittleproximal"
+        ],
+        "rightLittleMedial": [
+            "avatar_righthandpinky2",
+            "rightlittleintermediate"
+        ],
+        "rightLittleDistal": [
+            "avatar_righthandpinky3",
+            "rightlittledistal"
+        ],
+        "leftUpperArm": [
+            "avatar_leftarm",
+            "leftupperarm"
+        ],
+        "leftLowerArm": [
+            "avatar_leftforearm",
+            "leftlowerarm"
+        ],
+        "leftThumbProximal": [
+            "avatar_lefthandthumb1",
+            "leftthumbmetacarpal"
+        ],
+        "leftThumbMedial": [
+            "avatar_lefthandthumb2",
+            "leftthumbproximal"
+        ],
+        "leftThumbDistal": [
+            "avatar_lefthandthumb3",
+            "leftthumbdistal"
+        ],
+        "leftIndexProximal": [
+            "avatar_lefthandindex1",
+            "leftindexproximal"
+        ],
+        "leftIndexMedial": [
+            "avatar_lefthandindex2",
+            "leftindexintermediate"
+        ],
+        "leftIndexDistal": [
+            "avatar_lefthandindex3",
+            "leftindexdistal"
+        ],
+        "leftMiddleProximal": [
+            "avatar_lefthandmiddle1",
+            "leftmiddleproximal"
+        ],
+        "leftMiddleMedial": [
+            "avatar_lefthandmiddle2",
+            "leftmiddleintermediate"
+        ],
+        "leftMiddleDistal": [
+            "avatar_lefthandmiddle3",
+            "leftmiddledistal"
+        ],
+        "leftRingProximal": [
+            "avatar_lefthandring1",
+            "leftringproximal"
+        ],
+        "leftRingMedial": [
+            "avatar_lefthandring2",
+            "leftringintermediate"
+        ],
+        "leftRingDistal": [
+            "avatar_lefthandring3",
+            "leftringdistal"
+        ],
+        "leftLittleProximal": [
+            "avatar_lefthandpinky1",
+            "leftlittleproximal"
+        ],
+        "leftLittleMedial": [
+            "avatar_lefthandpinky2",
+            "leftlittleintermediate"
+        ],
+        "leftLittleDistal": [
+            "avatar_lefthandpinky3",
+            "leftlittledistal"
+        ],
+        "custom_bone_studiorobot_hips": [
+            "studiorobot_hips",
+            "hips"
+        ],
+        "custom_bone_studiorobot_rightupleg": [
+            "studiorobot_rightupleg",
+            "rigtupperleg"
+        ],
+        "custom_bone_studiorobot_rightleg": [
+            "studiorobot_rightleg",
+            "rigtlowerleg"
+        ],
+        "custom_bone_studiorobot_rightfoot": [
+            "studiorobot_rightfoot",
+            "rigtfoot"
+        ],
+        "custom_bone_studiorobot_righttoebase": [
+            "studiorobot_righttoebase",
+            "rigttoes"
+        ],
+        "custom_bone_studiorobot_leftupleg": [
+            "studiorobot_leftupleg",
+            "leftupperleg"
+        ],
+        "custom_bone_studiorobot_leftleg": [
+            "studiorobot_leftleg",
+            "leftlowerleg"
+        ],
+        "custom_bone_studiorobot_leftfoot": [
+            "studiorobot_leftfoot",
+            "leftfoot"
+        ],
+        "custom_bone_studiorobot_lefttoebase": [
+            "studiorobot_lefttoebase",
+            "lefttoes"
+        ],
+        "custom_bone_studiorobot_spine": [
+            "avatar_spine",
+            "studiorobot_spine",
+            "spine"
+        ],
+        "custom_bone_studiorobot_neck": [
+            "studiorobot_neck",
+            "neck"
+        ],
+        "custom_bone_studiorobot_neck1": [
+            "studiorobot_neck1",
+            "neck"
+        ],
+        "custom_bone_studiorobot_head": [
+            "studiorobot_head",
+            "head"
+        ],
+        "custom_bone_studiorobot_rightshoulder": [
+            "studiorobot_rightshoulder",
+            "rightshoulder"
+        ],
+        "custom_bone_studiorobot_rightarm": [
+            "studiorobot_rightarm",
+            "rightupperarm"
+        ],
+        "custom_bone_studiorobot_righthand": [
+            "studiorobot_righthand",
+            "righthand"
+        ],
+        "custom_bone_studiorobot_righthandthumb1": [
+            "studiorobot_righthandthumb1",
+            "rightthumbmetacarpal"
+        ],
+        "custom_bone_studiorobot_righthandthumb2": [
+            "studiorobot_righthandthumb2",
+            "rightthumbproximal"
+        ],
+        "custom_bone_studiorobot_righthandthumb3": [
+            "studiorobot_righthandthumb3",
+            "rightthumbdistal"
+        ],
+        "custom_bone_studiorobot_rightinhandindex": [
+            "avatar_righthandindex4",
+            "studiorobot_rightinhandindex",
+            "righthandindex4"
+        ],
+        "custom_bone_studiorobot_righthandindex1": [
+            "studiorobot_righthandindex1",
+            "rightindexproximal"
+        ],
+        "custom_bone_studiorobot_righthandindex2": [
+            "studiorobot_righthandindex2",
+            "rightindexintermediate"
+        ],
+        "custom_bone_studiorobot_righthandindex3": [
+            "studiorobot_righthandindex3",
+            "rightindexdistal"
+        ],
+        "custom_bone_studiorobot_rightinhandmiddle": [
+            "avatar_righthandmiddle4",
+            "studiorobot_rightinhandmiddle",
+            "righthandmiddle4"
+        ],
+        "custom_bone_studiorobot_righthandmiddle1": [
+            "studiorobot_righthandmiddle1",
+            "rightmiddleproximal"
+        ],
+        "custom_bone_studiorobot_righthandmiddle2": [
+            "studiorobot_righthandmiddle2",
+            "rightmiddleintermediate"
+        ],
+        "custom_bone_studiorobot_righthandmiddle3": [
+            "studiorobot_righthandmiddle3",
+            "rightmiddledistal"
+        ],
+        "custom_bone_studiorobot_rightinhandring": [
+            "avatar_righthandring4",
+            "studiorobot_rightinhandring",
+            "righthandring4"
+        ],
+        "custom_bone_studiorobot_righthandring1": [
+            "studiorobot_righthandring1",
+            "rightringproximal"
+        ],
+        "custom_bone_studiorobot_righthandring2": [
+            "studiorobot_righthandring2",
+            "rightringintermediate"
+        ],
+        "custom_bone_studiorobot_righthandring3": [
+            "studiorobot_righthandring3",
+            "rightringdistal"
+        ],
+        "custom_bone_studiorobot_rightinhandpinky": [
+            "avatar_righthandpinky4",
+            "studiorobot_rightinhandpinky",
+            "righthandpinky4"
+        ],
+        "custom_bone_studiorobot_righthandpinky1": [
+            "studiorobot_righthandpinky1",
+            "rightlittleproximal"
+        ],
+        "custom_bone_studiorobot_righthandpinky2": [
+            "studiorobot_righthandpinky2",
+            "rightlittleintermediate"
+        ],
+        "custom_bone_studiorobot_righthandpinky3": [
+            "studiorobot_righthandpinky3",
+            "rightlittledistal"
+        ],
+        "custom_bone_studiorobot_leftshoulder": [
+            "studiorobot_leftshoulder",
+            "leftshoulder"
+        ],
+        "custom_bone_studiorobot_leftarm": [
+            "studiorobot_leftarm",
+            "leftupperarm"
+        ],
+        "custom_bone_studiorobot_leftforearm": [
+            "studiorobot_leftforearm",
+            "leftlowerarm"
+        ],
+        "custom_bone_studiorobot_lefthand": [
+            "studiorobot_lefthand",
+            "lefthand"
+        ],
+        "custom_bone_studiorobot_lefthandthumb1": [
+            "studiorobot_lefthandthumb1",
+            "leftthumbmetacarpal"
+        ],
+        "custom_bone_studiorobot_lefthandthumb2": [
+            "studiorobot_lefthandthumb2",
+            "leftthumbproximal"
+        ],
+        "custom_bone_studiorobot_lefthandthumb3": [
+            "studiorobot_lefthandthumb3",
+            "leftthumbdistal"
+        ],
+        "custom_bone_studiorobot_leftinhandindex": [
+            "avatar_lefthandindex4",
+            "studiorobot_leftinhandindex",
+            "lefthandindex4"
+        ],
+        "custom_bone_studiorobot_lefthandindex1": [
+            "studiorobot_lefthandindex1",
+            "leftindexproximal"
+        ],
+        "custom_bone_studiorobot_lefthandindex2": [
+            "studiorobot_lefthandindex2",
+            "leftindexintermediate"
+        ],
+        "custom_bone_studiorobot_lefthandindex3": [
+            "studiorobot_lefthandindex3",
+            "leftindexdistal"
+        ],
+        "custom_bone_studiorobot_leftinhandmiddle": [
+            "avatar_lefthandmiddle4",
+            "studiorobot_leftinhandmiddle",
+            "lefthandmiddle4"
+        ],
+        "custom_bone_studiorobot_lefthandmiddle1": [
+            "studiorobot_lefthandmiddle1",
+            "leftmiddleproximal"
+        ],
+        "custom_bone_studiorobot_lefthandmiddle2": [
+            "studiorobot_lefthandmiddle2",
+            "leftmiddleintermediate"
+        ],
+        "custom_bone_studiorobot_lefthandmiddle3": [
+            "studiorobot_lefthandmiddle3",
+            "leftmiddledistal"
+        ],
+        "custom_bone_studiorobot_leftinhandring": [
+            "avatar_lefthandring4",
+            "studiorobot_leftinhandring",
+            "lefthandring4"
+        ],
+        "custom_bone_studiorobot_lefthandring1": [
+            "studiorobot_lefthandring1",
+            "leftringproximal"
+        ],
+        "custom_bone_studiorobot_lefthandring2": [
+            "studiorobot_lefthandring2",
+            "leftringintermediate"
+        ],
+        "custom_bone_studiorobot_lefthandring3": [
+            "studiorobot_lefthandring3",
+            "leftringdistal"
+        ],
+        "custom_bone_studiorobot_leftinhandpinky": [
+            "avatar_lefthandpinky4",
+            "studiorobot_leftinhandpinky",
+            "lefthandpinky4"
+        ],
+        "custom_bone_studiorobot_lefthandpinky1": [
+            "studiorobot_lefthandpinky1",
+            "leftlittleproximal"
+        ],
+        "custom_bone_studiorobot_lefthandpinky2": [
+            "studiorobot_lefthandpinky2",
+            "leftlittleintermediate"
+        ],
+        "custom_bone_studiorobot_lefthandpinky3": [
+            "studiorobot_lefthandpinky3",
+            "leftlittledistal"
+        ],
+        "custom_bone_studiorobot_spine1": [
+            "studiorobot_spine1",
+            "chest"
+        ],
+        "custom_bone_studiorobot_spine2": [
+            "studiorobot_spine2",
+            "upperchest"
+        ],
+        "custom_bone_studiorobot_rightforearm": [
+            "studiorobot_rightforearm",
+            "rightlowearm"
+        ],
+        "hip": [
+            "avatar_hips"
+        ],
+        "rightHand": [
+            "avatar_righthand"
+        ],
+        "custom_bone_mixamorig:righthandthumb4": [
+            "mixamorig:righthandthumb4",
+            "avatar_righthandthumb4"
+        ],
+        "leftShoulder": [
+            "avatar_leftshoulder"
+        ],
+        "leftHand": [
+            "avatar_lefthand"
+        ],
+        "custom_bone_mixamorig:lefthandthumb4": [
+            "mixamorig:lefthandthumb4",
+            "avatar_lefthandthumb4"
+        ],
+        "neck": [
+            "avatar_neck"
+        ],
+        "head": [
+            "avatar_head"
+        ],
+        "leftFoot": [
+            "avatar_leftfoot"
+        ],
+        "rightShoulder": [
+            "avatar_rightshoulder"
+        ]
+    },
+    "shapes": {}
+}

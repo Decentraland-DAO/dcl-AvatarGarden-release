@@ -1,0 +1,29 @@
+{
+"ecs7": true,
+"runtimeVersion": "7",
+"display": {
+    "title": "{LAND_TITLE}",
+	"description": "{LAND_INFO}",
+	"navmapThumbnail": "{LAND_IMG}",
+    "favicon": "favicon_asset"
+},
+"contact": {
+    "name": "{CONTACT_NAME}",
+    "email": "{CONTACT_EMAIL}"
+},
+"owner": "{ETH_ADDRESS}",
+"scene": {
+"parcels": [
+    {PARCELS}
+    ],
+    "base": {BASE}
+},
+"spawnPoints": [
+    {SPAWN}
+],
+"featureToggles": {
+    "voiceChat": {VOICECHAT}
+},
+"main": "bin/index.js",
+"tags": []
+}
